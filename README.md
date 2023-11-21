@@ -1,4 +1,102 @@
-# Getting Started with Create React App
+# Project requirements
+
+DCIT 205 INTERIM ASSESSMENT
+
+
+Assignment Overview
+You are tasked with creating a 10-page website for the Computer Science Department. This project will allow you to apply your web development skills in a practical context and showcase your understanding of computer science resources. You shouldn’t rebuild(clone) the CS website, rather you should improve it. Either you add new features or you redesign it. 
+
+
+Permitted Technologies for Development:
+HTML
+CSS
+JavaScript
+React
+
+Restrictions:
+The use of Bootstrap is not allowed.
+Other frameworks, languages, or libraries, such as Tailwind CSS, are also prohibited.
+
+Note:
+You do not have to complete the backend, just the frontend is fine.
+
+Computer Science Website
+
+I STRONGLY advise you to read and re-read the project requirements and submission section to know exactly what’s expected of you and how to go about the project.
+
+All the best. I can’t wait to see your contributions. Happy Hacking! 
+
+Duration
+Start Date: Tuesday 14th November 2023
+End Date: Tuesday 28th November 2023 11:55 PM
+
+Project Requirements
+
+Website Structure
+Your website must consist of 10 pages, each dedicated to a different aspect of the Computer Science Department.
+Suggested pages include Home, About, Catalog, Resources, Events, Contact, and a page of your choice (e.g., Student Projects, Staff Profiles, etc.).
+
+Design and Functionality
+Ensure that the website is user-friendly and navigable.
+Incorporate responsive design to ensure accessibility on different devices.
+Utilize appropriate HTML, CSS, and, if applicable, JavaScript.
+
+Content
+Each page should contain relevant information and visuals that represent the library effectively.
+Pay attention to detail: use correct spelling, grammar, and accurate information.
+
+README Document
+Prepare a comprehensive Readme document for your website.
+Include the following in your Readme:
+A brief introduction and the purpose of the website.
+Detailed instructions on how to clone and set up the project.
+Your name and student ID.
+Screenshots of each page of your website.
+What you have learned from the project.
+The Readme should be well-organized, clear, and professional in presentation
+.
+Submission
+
+Forking and Pull Request (PR)
+A public repository will be created on GitHub for this assignment.
+THE NAME OF YOUR PR SHOULD BE: “STUDENT ID_DCIT205”
+You are required to fork this repository to your own GitHub account to begin working on the project.
+As you work on your project, you should regularly be committing your changes. This will be checked.
+Once you have completed your website, commit your final change, and raise a Pull Request (PR) to the main branch of the original repository.(Select the compare across forks option)
+Ensure your PR includes all the necessary files of your website and the README document.
+
+Learning Resources
+If you're unfamiliar with forking and creating pull requests on GitHub, please refer to the following resources:
+GitHub Docs: Fork a Repo
+GitHub Docs: Creating a Pull Request
+First Open Source Contribution
+How to fork and raise a PR to an Open-Source Project 1
+How to fork and raise a PR to an Open Source Project 2
+
+
+Rubric
+Technical Skills (15 points):
+Functionality and navigability of the website
+Innovation (20 points):
+Creativity in problem-solving and enhancing user experience.
+Aesthetic appeal and responsive design.
+New Features
+Research and Learning (20 points):
+Ability to learn and apply new technologies or methodologies.
+Resourcefulness in overcoming challenges.
+Documentation (25 points):
+Clarity and completeness of code documentation.
+Adherence to the project requirements.
+Insightful report on improvements, challenges, and learnings. 
+Timeliness (20 points):
+Progress made within the two-week timeframe.
+
+# UGCS department web app
+
+University of Ghana Web App for the Computer Science Department (UGCS). 
+
+## Getting Started
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
