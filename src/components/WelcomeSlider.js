@@ -1,5 +1,4 @@
 import AwesomeSlider from 'react-awesome-slider';
-import ReactWOW from 'react-wow'
 import { useEffect } from 'react';
 import WOW from 'wowjs';
 
@@ -22,7 +21,7 @@ const WelcomeSlider = () => {
 
   useEffect(() => {
     new WOW.WOW({
-      live: false
+      live: true
     }).init();
   }, []);
 
