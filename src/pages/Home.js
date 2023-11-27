@@ -3,6 +3,7 @@ import '../css/Home.css';
 import Intro from "../components/Intro";
 import Subjects from "../components/Subjects";
 import Teachers from "../components/Teachers";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Intro />
       <Subjects />
       <Teachers />
+      <Footer />
     </div>
   );
 };

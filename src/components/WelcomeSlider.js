@@ -7,7 +7,7 @@ import WOW from 'wowjs';
 import ugcsStuImage1 from '../assets/images/ugcs_destee_image1.jpeg';
 import ugcsStuImage2 from '../assets/images/ugcs_students_image2.jpeg';
 import ugcsStuImage3 from '../assets/images/ugcs_students_image1.jpeg';
-import ugcsLaboratory from '../assets/images/ugcs_laboratory1.jpg'
+import ugcsLaboratory from '../assets/images/ugcs_laboratory1.png'
 
 // import slider styles
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
@@ -15,7 +15,6 @@ import 'react-awesome-slider/src/styled/cube-animation/cube-animation.scss';
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
-// const CaptionedSlider = withCaption(AwesomeSlider);
  
 const WelcomeSlider = () => {
 
