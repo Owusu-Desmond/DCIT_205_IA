@@ -2,7 +2,7 @@ import WelcomeSlider from "../components/WelcomeSlider";
 import '../css/Home.css';
 import Intro from "../components/Intro";
 import Subjects from "../components/Subjects";
-import Teachers from "../components/Teachers";
+import TopLectures from "../components/TopLectures";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <WelcomeSlider />
       <Intro />
       <Subjects />
-      <Teachers />
+      <TopLectures />
       <Footer />
     </div>
   );

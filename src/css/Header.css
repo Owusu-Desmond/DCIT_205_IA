@@ -29,8 +29,9 @@
 }
 
 .page-header .links a {
-    color: var(--primary-color);
+    color: #fff;
     text-decoration: none;
+    font-weight: 800;
 }
 
 .page-header a:hover {

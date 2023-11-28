@@ -1,6 +1,5 @@
 import WOW from 'wowjs';
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import teachers images
@@ -10,7 +9,7 @@ import markAttah from '../assets/images/teachers_images/mark-attah.jpeg';
 import kofiSarpong from '../assets/images/teachers_images/kofi-sarpong.jpeg';
 import aziz from '../assets/images/teachers_images/aziz.jpeg';
 
-const Teachers = () => {
+const TopLectures = () => {
 
     useEffect(() => {
         const wow = new WOW.WOW();
@@ -64,10 +63,10 @@ const Teachers = () => {
         <section className='teachers-section'>
             <div className="teachers-header">
                 <div className="line"></div>
-                <h3>Teachers</h3>
+                <h1>Our Top Lecturers</h1>
                 <div className="line"></div>
             </div>
-            <h4>Meet Our Teachers</h4>
+            <h4>Meet Our Top Lecturers</h4>
             <div className="teachers-container">
                 {teamData.map((teacher, index) => (
                     <div className="teacher-card wow zoomIn" data-wow-duration="1s" data-wow-delay={`${index / 10}s`} key={index}>
@@ -96,4 +95,4 @@ const Teachers = () => {
     );
 }
 
-export default Teachers;
+export default TopLectures;

@@ -6,7 +6,7 @@ import './css/Header.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Teachers from './pages/Teachers';
+import Lecturers from './pages/Lecturers';
 import Courses from './pages/Courses';
 import Nav from './components/Nav';
 import Blog from './pages/Blog';
@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
-        <Route path="/teachers" Component={Teachers} />
+        <Route path="/lectures" Component={Lecturers} />
         <Route path="/courses" Component={Courses} />
         <Route path="/blog" Component={Blog} />
         <Route path="/contact" Component={Contact} />
