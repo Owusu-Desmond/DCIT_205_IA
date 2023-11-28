@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
 
         <div className="contact-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.081925053944!2d-0.1856548852325962!3d5.650240795966216!2m3!1f0!2f39.99999899999999!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1e3!2sUniversity%20of%20Ghana%20Computer%20Science%20Department!5e0!3m2!1sen!2sgh!4v1629783826513!5m2!1sen!2sgh" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.081925053944!2d-0.1856548852325962!3d5.650240795966216!2m3!1f0!2f39.99999899999999!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1e3!2sUniversity%20of%20Ghana%20Computer%20Science%20Department!5e0!3m2!1sen!2sgh!4v1629783826513!5m2!1sen!2sgh" width="100%" height="450" allowfullscreen="" loading="lazy" title="map"></iframe>
         </div>     
       </section>
     <Footer />

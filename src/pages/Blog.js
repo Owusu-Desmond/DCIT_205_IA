@@ -97,16 +97,16 @@ const Blog = () => {
             <div className="pagination">
               <ul className="pagination-list">
                 <li className="pagination-item disabled">
-                  <a className="pagination-link" href="#" aria-label="Previous">
+                  <a className="pagination-link" href="/blog#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                     <span className="sr-only">Previous</span>
                   </a>
                 </li>
-                <li className="pagination-item active"><a className="pagination-link" href="#">1</a></li>
-                <li className="pagination-item"><a className="pagination-link" href="#">2</a></li>
-                <li className="pagination-item"><a className="pagination-link" href="#">3</a></li>
+                <li className="pagination-item active"><a className="pagination-link" href="/blog#">1</a></li>
+                <li className="pagination-item"><a className="pagination-link" href="/blog#">2</a></li>
+                <li className="pagination-item"><a className="pagination-link" href="/blog#">3</a></li>
                 <li className="pagination-item">
-                  <a className="pagination-link" href="#" aria-label="Next">
+                  <a className="pagination-link" href="/blog#" aria-label="Next">
                     <span aria-hidden="true">&raquo;</span>
                     <span className="sr-only">Next</span>
                   </a>
@@ -128,7 +128,7 @@ const Blog = () => {
               <ul className="category-list-group">
                 {categoryData.map((category, index) => (
                   <li className="category-item" key={index}>
-                    <a href="#" className="category-link">{category.name}</a>
+                    <a href="/blog#" className="category-link">{category.name}</a>
                     <span className="badge-pill">{category.count}</span>
                   </li>
                 ))}
@@ -139,7 +139,7 @@ const Blog = () => {
               <h3 className="tag-cloud-heading">Recent Posts</h3>
               {blogData.slice(0, 3).map((blog, index) => (
                 <div className="recent-post" key={index}>
-                  <a className="recent-post-link" href="#">
+                  <a className="recent-post-link" href="/blog#">
                     <img className="recent-post-image" src={blog.imgSrc} alt="" />
                     <div className="recent-post-content">
                       <h5 className="recent-post-title">{blog.title}</h5>
@@ -153,12 +153,12 @@ const Blog = () => {
             <div className="tag-cloud wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">
               <h3 className="tag-cloud-heading">Tag Cloud</h3>
               <div className="tag-cloud-buttons">
-                <a href="#" className="tag-cloud-button">Design</a>
-                <a href="#" className="tag-cloud-button">Development</a>
-                <a href="#" className="tag-cloud-button">Marketing</a>
-                <a href="#" className="tag-cloud-button">SEO</a>
-                <a href="#" className="tag-cloud-button">Writing</a>
-                <a href="#" className="tag-cloud-button">Consulting</a>
+                <a href="/blog#" className="tag-cloud-button">Design</a>
+                <a href="/blog#" className="tag-cloud-button">Development</a>
+                <a href="/blog#" className="tag-cloud-button">Marketing</a>
+                <a href="/blog#" className="tag-cloud-button">SEO</a>
+                <a href="/blog#" className="tag-cloud-button">Writing</a>
+                <a href="/blog#" className="tag-cloud-button">Consulting</a>
               </div>
             </div>
           </div>

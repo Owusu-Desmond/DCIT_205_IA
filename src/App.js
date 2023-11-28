@@ -4,6 +4,7 @@ import './css/Home.css'
 import './css/Footer.css'
 import './css/Header.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Enroll from './pages/Enroll';
 import Home from './pages/Home';
 import About from './pages/About';
 import Lecturers from './pages/Lecturers';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/events" Component={Events} />
         <Route path="/topstudents" Component={TopStudents} />
         <Route path="/announcements" Component={Announcements} />
+        <Route path="/enroll" Component={Enroll} />
       </Routes>
     </BrowserRouter>
   );

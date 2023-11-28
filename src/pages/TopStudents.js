@@ -56,21 +56,6 @@ const TopStudents = () => {
         }
     ];
 
-    const options = {
-        0: {
-            items: 1,
-        },
-        450: {
-            items: 1,
-        },
-        600: {
-            items: 1,
-        },
-        1000: {
-            items: 1,
-        },
-    };
-
     return (
         <>
             <Header title="Top Students" currentPage="Top Students" backgroundImage={bg} />

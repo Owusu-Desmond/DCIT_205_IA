@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -19,39 +20,39 @@ const Footer = () => {
                             </a>
                         </p>
                         <div className="footer-social">
-                            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <Link to="/#"> <FontAwesomeIcon icon={faFacebookF} /></Link>
+                            <Link to="/#"><FontAwesomeIcon icon={faTwitter} /></Link>
+                            <Link to="/#"><FontAwesomeIcon icon={faLinkedin} /></Link>
+                            <Link to="/#"><FontAwesomeIcon icon={faInstagram} /></Link>
                         </div>
                     </div>
                     <div className="footer-column">
                         <h4 className="footer-header">Our Courses</h4>
                         <div className="footer-links">
-                            <a className="footer-link" href="#">
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  Web Design
-                            </a>
-                            <a className="footer-link" href="#">
+                            </Link>
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  Web Development
-                            </a>
-                            <a className="footer-link" href="#">
+                            </Link>
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  Apps Design
-                            </a>
-                            <a className="footer-link" href="#">
+                            </Link>
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  Marketing
-                            </a>
-                            <a className="footer-link" href="#">
+                            </Link>
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  Research
-                            </a>
-                            <a className="footer-link" href="#">
+                            </Link>
+                            <Link className="footer-link" to="/courses">
                                 <FontAwesomeIcon icon={faAngleRight} />
                                  SEO
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="footer-column">
@@ -66,20 +67,20 @@ const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                <p className="footer-text">&copy; <a href="#">UGCS</a>. All Rights Reserved. Designed by <a href="https://github.com/Owusu-Desmond">DESMOND OWUSU ANSAH</a>
+                <p className="footer-text">&copy; <a href="/#">UGCS</a>. All Rights Reserved. Designed by <a href="https://github.com/Owusu-Desmond">DESMOND OWUSU ANSAH</a>
                 </p>
                 <ul className="footer-nav">
                     <li className="footer-nav-item">
-                        <a className="footer-nav-link" href="#">Privacy</a>
+                        <a className="footer-nav-link" href="/#">Privacy</a>
                     </li>
                     <li className="footer-nav-item">
-                        <a className="footer-nav-link" href="#">Terms</a>
+                        <a className="footer-nav-link" href="/#">Terms</a>
                     </li>
                     <li className="footer-nav-item">
-                        <a className="footer-nav-link" href="#">FAQs</a>
+                        <a className="footer-nav-link" href="/#">FAQs</a>
                     </li>
                     <li className="footer-nav-item">
-                        <a className="footer-nav-link" href="#">Help</a>
+                        <a className="footer-nav-link" href="/#">Help</a>
                     </li>
                 </ul>
             </div>
