@@ -1,0 +1,77 @@
+/* style for the courses section */
+
+.courses-container {
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.courses-content {
+    text-align: center;
+}
+
+.courses-content h3 {
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.courses-content p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.courses-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.course-card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-card-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.course-card-content h4 {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.course-card-content p {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.course-card-content a {
+  font-size: 16px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.course-card-content a:hover {
+  text-decoration: underline;
+}
+
