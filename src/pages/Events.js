@@ -1,14 +1,14 @@
 
 import React from 'react';
 
-const Gallery = () => {
+const Events = () => {
   // Your code for rendering the gallery goes here
 
   return (
     <div>
-      <h1>Gallery</h1>
+      <h1>Events</h1>
     </div>
   );
 };
 
-export default Gallery;
+export default Events;

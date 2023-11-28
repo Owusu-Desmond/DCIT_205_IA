@@ -11,7 +11,7 @@ import Courses from './pages/Courses';
 import Nav from './components/Nav';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Gallery from './pages/Gallery';
+import Events from './pages/Events';
 import TopStudents from './pages/TopStudents';
 import Announcements from './pages/Announcements';
 
@@ -26,7 +26,7 @@ function App() {
         <Route path="/courses" Component={Courses} />
         <Route path="/blog" Component={Blog} />
         <Route path="/contact" Component={Contact} />
-        <Route path="/gallery" Component={Gallery} />
+        <Route path="/events" Component={Events} />
         <Route path="/topstudents" Component={TopStudents} />
         <Route path="/announcements" Component={Announcements} />
       </Routes>
