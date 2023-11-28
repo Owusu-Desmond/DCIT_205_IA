@@ -30,7 +30,7 @@ const Nav = () => {
                     </div>
                     <div className="info">
                         <p>Email Us</p>
-                        <p>info@example.com</p>
+                        <p>dcs@ug.edu.gh</p>
                     </div>
                 </div>
 

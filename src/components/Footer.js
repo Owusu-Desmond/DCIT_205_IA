@@ -14,8 +14,8 @@ const Footer = () => {
                         <p className="footer-text"><FontAwesomeIcon icon={faMapMarkerAlt} /> Leoon, Accra, Ghana</p>
                         <p className="footer-text"><FontAwesomeIcon icon={faPhoneAlt} /> +012 345 67890</p>
                         <p className="footer-text"><FontAwesomeIcon icon={faEnvelope} />
-                            <a href="mailto:info@example.com">
-                                info@example.com
+                            <a href="mailto:dcs@ug.edu.gh">
+                                dcs@ug.edu.gh
                             </a>
                         </p>
                         <div className="footer-social">
@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                <p className="footer-text">&copy; <a href="#">UGCS</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">DESMOND OWUSU ANSAH</a>
+                <p className="footer-text">&copy; <a href="#">UGCS</a>. All Rights Reserved. Designed by <a href="https://github.com/Owusu-Desmond">DESMOND OWUSU ANSAH</a>
                 </p>
                 <ul className="footer-nav">
                     <li className="footer-nav-item">

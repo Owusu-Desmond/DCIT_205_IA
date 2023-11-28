@@ -22,11 +22,11 @@
     margin-bottom: 20px;
 }
 
-.testimonial {
+.student-card {
     text-align: center;
 }
 
-.testimonial p {
+.student-card p {
     font-size: 18px;
     color: var(--primary-color);
     margin-bottom: 20px;
@@ -35,7 +35,7 @@
     padding-bottom: 50px;
 }
 
-.testimonial-info {
+.student-info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,21 +72,21 @@
     background-color: #e0bd88
 }
 
-.owl-carousel .owl-item .testimonial-name {
+.owl-carousel .owl-item .student-content {
     text-align: center;
 }
 
-.testimonial-name {
+.student-content {
     text-align: left;
 }
 
-.testimonial-name h5 {
+.student-content h5 {
     font-size: 20px;
     color: var(--secondary-color);
     margin-bottom: 5px;
 }
 
-.testimonial-name p {
+.student-content p {
     font-size: 16px;
     color: var(--primary-color);
 }

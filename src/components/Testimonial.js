@@ -2,6 +2,7 @@ import OwlCarousel from "react-owl-carousel";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import "../css/Testimonial.css";
+import StudentCard from "./Student_card";
 // import students images
 import studentImage1 from "../assets/images/student_images/Christian Abrokwa.jpeg";
 import studentImage2 from "../assets/images/student_images/Desmond Owusu Ansah.jpg";
@@ -61,22 +62,12 @@ const Testimonial = () => {
                 responsive={options}
             >
             {TestimonialData.map((testimonial, index) => (
-                <div className="item" key={index}>
-                    <div className="testimonial">
-                        <FontAwesomeIcon
+                <StudentCard student={testimonial} key={index}>
+                    <FontAwesomeIcon
                         icon={faQuoteLeft}
                         className="quote-icon"
-                        />
-                        <p>{testimonial.testimonial}</p>
-                        <div className="testimonial-info">
-                        <img src={testimonial.imgSrc} alt={testimonial.name} />
-                        <div className="testimonial-name">
-                            <h5>{testimonial.name}</h5>
-                            <p>{testimonial.role}</p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
+                    />
+                </StudentCard>
             ))}
             </OwlCarousel>
         </div>

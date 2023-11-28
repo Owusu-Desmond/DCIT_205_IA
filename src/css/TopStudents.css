@@ -1,0 +1,44 @@
+.top-students {
+    margin: 0 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.top-students-content {
+    text-align: center;
+}
+
+.top-students-content h3 {
+    font-size: 40px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.top-students-content p {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.top-students .student-card img {
+    width: 70%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.top-students .student-card img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.top-students .student-card p {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
