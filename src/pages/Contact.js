@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Header from '../components/Hearder';
+import Header from '../components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import '../css/Contact.css';

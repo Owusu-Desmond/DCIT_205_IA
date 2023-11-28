@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Header from '../components/Hearder'
+import Header from '../components/Header'
 import headerImage from '../assets/images/header_images/about_header_image.jpg';
 import '../css/About.css';
 import ReactCardCarousel from 'react-card-carousel';

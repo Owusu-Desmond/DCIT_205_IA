@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import WOW from 'wowjs';
 import '../css/Blog.css';
-import Header from '../components/Hearder';
+import Header from '../components/Header';
 import bg from '../assets/images/header_images/blog_page_header_image.jpg';
 import blogImage1 from '../assets/images/blog_images/blog-1.jpg';
 import blogImage2 from '../assets/images/blog_images/blog-2.jpg';

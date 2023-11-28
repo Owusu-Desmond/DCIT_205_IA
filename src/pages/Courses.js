@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import Header from '../components/Hearder';
+import Header from '../components/Header';
 import '../css/Courses.css';
 import WOW from 'wowjs';
 import Footer from '../components/Footer';
