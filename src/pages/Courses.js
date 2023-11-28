@@ -5,7 +5,7 @@ import '../css/Courses.css';
 import WOW from 'wowjs';
 import Footer from '../components/Footer';
 import Subjects from '../components/Subjects';
-
+import Course from '../components/Course';
 // import header image
 import bg from '../assets/images/header_images/courses_header_image.jpeg';
 
@@ -59,18 +59,11 @@ const Courses = () => {
           <p>Learn the various techniques used to secure a computer system from attacks through hacking.</p>
         </div>
         <div className="courses-cards">
-          {coursesData.map((course, index) => (
-            <div className="course-card wow fadeInUp" key={index}>
-              <div className="course-card-image">
-                <img src={course.imgSrc} alt={course.title} />
-              </div>
-              <div className="course-card-content">
-                <h4>{course.title}</h4>
-                <p>{course.description}</p>
-                <a href={course.link}>Read More</a>
-              </div>
-            </div>
-          ))}
+          {
+            coursesData.map((course, index) => {
+              return <Course key={index} imgSrc={course.imgSrc} title={course.title} description={course.description} link={course.link} />
+            })
+          }
         </div>
       </div>
     </section>
