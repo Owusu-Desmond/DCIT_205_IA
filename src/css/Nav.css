@@ -1,11 +1,5 @@
 /* Styles for the top navigation section */
 
-/* color variables */
-:root {
-    --primary-color: #2C2A58;
-    --secondary-color: #BD9C6C;
-}
-
 .topnav {
     display: flex;
     justify-content: space-between;

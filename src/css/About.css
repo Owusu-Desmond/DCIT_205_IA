@@ -1,0 +1,114 @@
+.welcome-section h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 5%;
+    padding-top: 0;
+}
+
+.welcome-section > p {
+    font-size: 18px;
+    color: #c79954;
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 10px;
+}
+
+/* get to know us section */
+
+.get-to-knowUs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 5%;
+}
+
+.get-to-knowUs-section h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.get-to-knowUs-section > p {
+    font-size: 18px;
+    color: var(--primary-color)
+}
+
+.get-to-knowUs-section .line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
+.carousel-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    justify-content: "center";
+    padding-bottom: 50px;
+}
+
+.carousel-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-card-img {
+    position: relative;
+    width: 100vh;
+    height: 0;
+    padding-top: 60%;
+}
+
+.carousel-card-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carousel-card-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    background-color: rgba(44, 41, 86, 0.4);
+    border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-card:hover .carousel-card-content {
+    background-color: rgba(44, 41, 86, 0.8);
+}
+
+.carousel-card-content h4 {
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+
+

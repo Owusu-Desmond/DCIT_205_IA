@@ -4,3 +4,9 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+/* color variables */
+:root {
+  --primary-color: #2c2956;
+  --secondary-color: #BD9C6C;
+}
