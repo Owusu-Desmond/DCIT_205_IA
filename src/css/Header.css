@@ -1,0 +1,46 @@
+.page-header {
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+.page-header .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 10%;
+    padding-bottom: 30px;
+}
+
+.page-header h3 {
+    font-size: 2.5em;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px var(--secondary-color);
+}
+
+.page-header .links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.page-header .links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.page-header a:hover {
+    text-decoration: underline;
+}
+
+.page-header .fa-angle-double-right {
+    font-size: 1.5em;
+    margin-top: 3px;
+    margin-right: 10px;
+}

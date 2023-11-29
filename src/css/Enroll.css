@@ -1,0 +1,122 @@
+.registration-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    padding: 100px 10%;
+}
+  
+  .registration-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .registration-info {
+    flex: 0 0 65%;
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .registration-info h3 {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .registration-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .registration-info p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .registration-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .registration-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .registration-list li svg {
+    margin-right: 10px;
+    font-size: 40px;
+    color: var(--secondary-color);
+  }
+  
+  .registration-form {
+    flex: 0 0 32%;
+  }
+  
+  .registration-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .registration-card-header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .registration-card-header h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  .registration-card-body {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+  }
+  
+.registration-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.registration-content .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+.registration-content .form-control {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .custom-select {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 47px;
+  }
+  
+.registration-content  button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #23272b;
+  }
+  

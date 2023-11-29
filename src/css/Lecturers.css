@@ -1,0 +1,28 @@
+.lecturers-container {
+  margin: 0 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.lecturers-container img {
+  width: 80%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.lecturers-content {
+  text-align: center;
+}
+
+.lecturers-content h3 {
+  font-size: 40px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.lecturers-content p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
