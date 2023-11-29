@@ -34,7 +34,12 @@
 
 # 📖 UGCS <a name="about-project"></a>
 
-> This is a project to create a website for the Computer Science Department of the University of Ghana.
+ This is a project to create a website for the Computer Science Department of the University of Ghana.
+
+## Walkthrough Video
+
+[Screencast from 11-29-2023 12:03:35 AM.webm](https://github.com/Owusu-Desmond/DCIT_205_IA/assets/92303891/167cdc3f-4c47-4b07-b06c-66711cb4736e)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
