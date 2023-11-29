@@ -1,168 +1,164 @@
-# Project requirements
+<a name="readme-top"></a>
 
-DCIT 205 INTERIM ASSESSMENT
+<div align="center">
 
+  <h3><b>University of Ghana Computer Science Department Website</b></h3>
 
-Assignment Overview
-You are tasked with creating a 10-page website for the Computer Science Department. This project will allow you to apply your web development skills in a practical context and showcase your understanding of computer science resources. You shouldn’t rebuild(clone) the CS website, rather you should improve it. Either you add new features or you redesign it. 
+</div>
 
+<!-- TABLE OF CONTENTS -->
 
-Permitted Technologies for Development:
-HTML
-CSS
-JavaScript
-React
+# 📗 Table of Contents
 
-Restrictions:
-The use of Bootstrap is not allowed.
-Other frameworks, languages, or libraries, such as Tailwind CSS, are also prohibited.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-Note:
-You do not have to complete the backend, just the frontend is fine.
+<!-- PROJECT DESCRIPTION -->
 
-Computer Science Website
+# 📖 UGCS <a name="about-project"></a>
 
-I STRONGLY advise you to read and re-read the project requirements and submission section to know exactly what’s expected of you and how to go about the project.
+> This is a project to create a website for the Computer Science Department of the University of Ghana.
 
-All the best. I can’t wait to see your contributions. Happy Hacking! 
+## 🛠 Built With <a name="built-with"></a>
 
-Duration
-Start Date: Tuesday 14th November 2023
-End Date: Tuesday 28th November 2023 11:55 PM
+### Tech Stack <a name="tech-stack"></a>
 
-Project Requirements
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-Website Structure
-Your website must consist of 10 pages, each dedicated to a different aspect of the Computer Science Department.
-Suggested pages include Home, About, Catalog, Resources, Events, Contact, and a page of your choice (e.g., Student Projects, Staff Profiles, etc.).
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactrouter.com/">React Router</a></li>
+  </ul>
+</details>
 
-Design and Functionality
-Ensure that the website is user-friendly and navigable.
-Incorporate responsive design to ensure accessibility on different devices.
-Utilize appropriate HTML, CSS, and, if applicable, JavaScript.
+<!-- Features -->
 
-Content
-Each page should contain relevant information and visuals that represent the library effectively.
-Pay attention to detail: use correct spelling, grammar, and accurate information.
+### Key Features <a name="key-features"></a>
 
-README Document
-Prepare a comprehensive Readme document for your website.
-Include the following in your Readme:
-A brief introduction and the purpose of the website.
-Detailed instructions on how to clone and set up the project.
-Your name and student ID.
-Screenshots of each page of your website.
-What you have learned from the project.
-The Readme should be well-organized, clear, and professional in presentation
-.
-Submission
+- Home page
+- About page
+- Contact page
+- ...
 
-Forking and Pull Request (PR)
-A public repository will be created on GitHub for this assignment.
-THE NAME OF YOUR PR SHOULD BE: “STUDENT ID_DCIT205”
-You are required to fork this repository to your own GitHub account to begin working on the project.
-As you work on your project, you should regularly be committing your changes. This will be checked.
-Once you have completed your website, commit your final change, and raise a Pull Request (PR) to the main branch of the original repository.(Select the compare across forks option)
-Ensure your PR includes all the necessary files of your website and the README document.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Learning Resources
-If you're unfamiliar with forking and creating pull requests on GitHub, please refer to the following resources:
-GitHub Docs: Fork a Repo
-GitHub Docs: Creating a Pull Request
-First Open Source Contribution
-How to fork and raise a PR to an Open-Source Project 1
-How to fork and raise a PR to an Open Source Project 2
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Rubric
-Technical Skills (15 points):
-Functionality and navigability of the website
-Innovation (20 points):
-Creativity in problem-solving and enhancing user experience.
-Aesthetic appeal and responsive design.
-New Features
-Research and Learning (20 points):
-Ability to learn and apply new technologies or methodologies.
-Resourcefulness in overcoming challenges.
-Documentation (25 points):
-Clarity and completeness of code documentation.
-Adherence to the project requirements.
-Insightful report on improvements, challenges, and learnings. 
-Timeliness (20 points):
-Progress made within the two-week timeframe.
+- [Live Demo Link](https://google.com)
 
-# UGCS department web app
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-University of Ghana Web App for the Computer Science Department (UGCS). 
+<!-- GETTING STARTED -->
 
-## Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To get a local copy up and running, follow these steps.
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+In order to run this project you need:
 
-### `npm start`
+- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository to your desired folder:
 
-### `npm test`
+```sh
+  cd dcit205-project
+  git clone https://github.com/Owusu-Desmond/DCIT_205_IA
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install
 
-### `npm run build`
+Install this project with:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+  cd dcit205-project
+  gem install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the project, execute the following command:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  npm start
+```
+--->
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- AUTHORS -->
 
-### `npm run build` fails to minify
+## 👥 Author <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Desmond Owusu Ansah**
+
+- Github [@Owusu-Desmond](https://github.com/Owusu-Desmond)
+- Twitter [@DesmondOwusuDev](https://twitter.com/DesmondOwusuDev)
+- LinkedIn [@desmond-owusu-ansah](https://www.linkedin.com/in/desmond-owusu-ansah-09274a223/)
+- Dev [@desmondowusudev](https://dev.to/desmondowusudev)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, give it a ⭐️!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank CS department for giving me this opportunity to work on this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
