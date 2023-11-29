@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [University of Ghana Computer Science Department Website](https://ugcs_destee.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,8 +82,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- 
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -91,6 +89,7 @@ Clone this repository to your desired folder:
 ```sh
   cd dcit205-project
   git clone https://github.com/Owusu-Desmond/DCIT_205_IA
+```
 
 ### Install
 
