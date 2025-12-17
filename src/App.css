@@ -10,3 +10,33 @@
   --primary-color: #2c2956;
   --secondary-color: #BD9C6C;
 }
+
+/* Responsive helpers (mobile-first) */
+/* Small devices (phones, up to 480px) */
+@media (max-width: 480px) {
+  html, body, #root {
+    font-size: 14px;
+  }
+
+  .container{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Medium devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+  html, body, #root {
+    font-size: 15px;
+  }
+
+  .container{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

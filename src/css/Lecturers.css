@@ -26,3 +26,32 @@
   font-size: 18px;
   color: var(--primary-color);
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .lecturers-content h3 {
+    font-size: 30px;
+  }
+
+  .lecturers-content p {
+    font-size: 16px;
+  }
+
+  .lecturers-container img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .lecturers-container {
+    margin: 0 2%;
+  }
+
+  .lecturers-content h3 {
+    font-size: 24px;
+  }
+
+  .lecturers-container img {
+    width: 100%;
+  }
+}

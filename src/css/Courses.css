@@ -75,3 +75,36 @@
   text-decoration: underline;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .courses-content h3 {
+    font-size: 30px;
+  }
+
+  .courses-content p {
+    font-size: 16px;
+  }
+
+  .courses-cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-container {
+    margin: 0 2%;
+  }
+
+  .courses-content h3 {
+    font-size: 24px;
+  }
+
+  .courses-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .course-card-content {
+    padding: 15px;
+  }
+}
+

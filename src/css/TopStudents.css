@@ -42,3 +42,37 @@
     padding-bottom: 50px;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .top-students-content h3 {
+    font-size: 30px;
+  }
+
+  .top-students-content p {
+    font-size: 16px;
+  }
+
+  .top-students .student-card img {
+    width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-students {
+    margin: 0 2%;
+  }
+
+  .top-students-content h3 {
+    font-size: 24px;
+  }
+
+  .top-students .student-card img {
+    width: 95%;
+  }
+
+  .top-students .student-card p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+}
+

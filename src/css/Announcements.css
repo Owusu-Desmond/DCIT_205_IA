@@ -34,3 +34,28 @@
   font-size: 18px;
   color: var(--primary-color);
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .announcements-content h3 {
+    font-size: 30px;
+  }
+
+  .announcements-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .announcements {
+    margin: 0 2%;
+  }
+
+  .announcements-content h3 {
+    font-size: 24px;
+  }
+
+  .announcements-content p {
+    font-size: 14px;
+  }
+}

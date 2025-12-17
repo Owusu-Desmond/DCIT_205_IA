@@ -119,4 +119,56 @@
   button:hover {
     background-color: #23272b;
   }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .registration-container {
+      padding: 60px 5%;
+    }
+
+    .registration-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .registration-info,
+    .registration-form {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .registration-info h3 {
+      font-size: 1.4rem;
+    }
+
+    .registration-info h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .registration-container {
+      padding: 40px 3%;
+    }
+
+    .registration-info h3 {
+      font-size: 1.2rem;
+    }
+
+    .registration-info h1 {
+      font-size: 1.6rem;
+    }
+
+    .registration-info p {
+      font-size: 0.9rem;
+    }
+
+    .registration-list li svg {
+      font-size: 30px;
+    }
+
+    .registration-card-body {
+      padding: 1.5rem;
+    }
+  }
   

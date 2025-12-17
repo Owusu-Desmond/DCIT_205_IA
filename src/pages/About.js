@@ -3,7 +3,11 @@ import React from 'react';
 import Header from '../components/Header'
 import headerImage from '../assets/images/header_images/about_header_image.jpg';
 import '../css/About.css';
-import ReactCardCarousel from 'react-card-carousel';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import Footer from '../components/Footer';
 
 // import get to know us images
@@ -75,21 +79,44 @@ const About = () => {
                 or you become eager to know more because it is interesting?
               </p>
               <div className="carousel-container">
-                <ReactCardCarousel autoplay={ true } autoplay_speed={ 3000 }>
+                <Swiper
+                  modules={[Autoplay, Pagination, Navigation]}
+                  spaceBetween={30}
+                  slidesPerView={1}
+                  autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  }}
+                  pagination={{ clickable: true }}
+                  navigation={true}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                    },
+                  }}
+                >
                     {getToKnowUsData.map((getToKnowUs, index) => (
-                      <div className="carousel-card" key={index}>
-                        <div className="carousel-card-img">
-                            <img src={getToKnowUs.imgSrc} alt="carousel" />
+                      <SwiperSlide key={index}>
+                        <div className="carousel-card">
+                          <div className="carousel-card-img">
+                              <img src={getToKnowUs.imgSrc} alt="carousel" />
+                          </div>
+                          <div className="carousel-card-content">
+                            <h4>{getToKnowUs.title}</h4>
+                            <p>
+                                {getToKnowUs.description}
+                            </p>
+                          </div>
                         </div>
-                        <div className="carousel-card-content">
-                          <h4>{getToKnowUs.title}</h4>
-                          <p>
-                              {getToKnowUs.description}
-                          </p>
-                        </div>
-                      </div>
+                      </SwiperSlide>
                     ))}
-                </ReactCardCarousel>
+                </Swiper>
                 </div>
               </div>
         </div>

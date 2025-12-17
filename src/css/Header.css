@@ -44,3 +44,33 @@
     margin-top: 3px;
     margin-right: 10px;
 }
+
+/* Responsive header adjustments */
+@media (max-width: 768px) {
+    .page-header .container {
+        padding: 60px 6%;
+    }
+
+    .page-header h3 {
+        font-size: 1.8em;
+    }
+
+    .page-header .links {
+        font-size: 20px;
+        gap: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header .container {
+        padding: 40px 5%;
+    }
+
+    .page-header h3 {
+        font-size: 1.4em;
+    }
+
+    .page-header {
+        margin-bottom: 50px;
+    }
+}

@@ -48,6 +48,28 @@
     align-items: center;
     background-color: var(--primary-color);
     padding: 15px;
+    position: relative;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 1001;
+}
+
+.mobile-menu-toggle:hover {
+    color: var(--secondary-color);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .nav-link {
@@ -64,9 +86,212 @@
 }
 
 .nav-link img {
-    width: 200px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
 }
 
 .nav-link:hover {
     color: var(--secondary-color);
+}
+
+/* Responsive nav adjustments */
+@media (max-width: 1024px) {
+    .topnav {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .logo-container {
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .site-info {
+        flex: 1 1 calc(33.333% - 10px);
+        min-width: 150px;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 12px 15px;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        align-items: stretch;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        max-height: 500px;
+        padding: 10px 0;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        margin: 0;
+        padding: 12px 20px;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        transition: background-color 0.2s;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(189, 156, 108, 0.15);
+    }
+
+    .nav-link.active {
+        background-color: rgba(189, 156, 108, 0.2);
+        border-left: 4px solid var(--secondary-color);
+        font-size: 16px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .enroll {
+        margin-left: auto;
+    }
+
+    .enroll a {
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .topnav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 15px 10px;
+    }
+
+    .logo-container {
+        margin-bottom: 5px;
+    }
+
+    .nav-link img {
+        max-width: 160px;
+    }
+
+    .site-info {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .symbol svg {
+        font-size: 24px;
+    }
+
+    .info {
+        font-size: 11px;
+    }
+
+    .navbar {
+        padding: 12px;
+    }
+
+    .nav-menu.active {
+        max-height: 600px;
+    }
+
+    .enroll {
+        position: absolute;
+        right: 60px;
+        top: 12px;
+    }
+
+    .enroll a {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topnav {
+        padding: 12px 8px;
+        gap: 10px;
+    }
+
+    .nav-link img {
+        max-width: 140px;
+    }
+
+    .site-info {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 8px;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+    }
+
+    .symbol svg {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+
+    .info p {
+        margin: 2px 0;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .mobile-menu-toggle {
+        font-size: 22px;
+    }
+
+    .nav-menu {
+        left: 0;
+        right: 0;
+    }
+
+    .nav-menu.active {
+        max-height: 700px;
+        padding: 5px 0;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+
+    .nav-link.active {
+        font-size: 15px;
+    }
+
+    .enroll {
+        position: absolute;
+        right: 50px;
+        top: 8px;
+    }
+
+    .enroll a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
 }
